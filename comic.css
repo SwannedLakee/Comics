@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'crimefighter'; /*a name to be used later*/
+    src:url("fonts/CRIMFBRG.TTF");
+}
+
+
+.comic {
+  display:flex;
+  flex-wrap:wrap;
+  padding:1vmin;
+  font-family:crimefighter;
+  font-size:8pt;
+}
+
+.panel {
+  border:solid 2px #000;
+  height:200px;
+  overflow:hidden;/* Only makes sense with a height*/
+  margin:1vmin;/* Margin rather than padding so we are snug to the boxes */
+  position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
+}
+
+.text{
+  background-color:#F00;
+  background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+  border:solid 2px #000;
+  padding:3px 10px;
+  margin:0px /* so it sits flush to the box*/
+} 
+
+.top { 
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+}
+
+.top-left {
+  left:-6px;
+  position:absolute;
+  top:-2px;
+  transform:skew(-15deg);
+}
+.bottom-right {
+  right:-6px;
+  position:absolute;
+  bottom:-2px;
+  transform:skew(-15deg);
+}
