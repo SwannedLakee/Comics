@@ -5,6 +5,7 @@
 
 
 .comic {
+  width=500px;
   display:flex;
   flex-wrap:wrap;
   padding:1vmin;
@@ -13,11 +14,13 @@
 }
 
 .panel {
-  border:solid 2px #000;
+  border:solid 4px #000;
   height:200px;
   overflow:hidden;/* Only makes sense with a height*/
   margin:1vmin;/* Margin rather than padding so we are snug to the boxes */
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
+  border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
+  transform: rotate(1deg);
 }
 
 .text{
