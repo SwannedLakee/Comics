@@ -2,6 +2,59 @@
     font-family: 'crimefighter'; /*a name to be used later*/
     src:url("fonts/CRIMFBRG.TTF");
 }
+@font-face {
+    font-family: 'title'; /*a name to be used later*/
+    src:url("fonts/Captureit.ttf");
+}
+
+
+.barcode {
+position:absolute;
+height:150px;
+width:150px;
+border: solid 1px;
+bottom:20px;
+left:20px;
+}
+
+.cover {
+
+  width:1080px;
+  height:1920px;
+  display:flex;
+  overflow:hidden;
+  border:solid 1px #000;
+  position:relative;
+}
+
+.banner {
+position:absolute;
+  background-color:rgba(44, 123, 184, 0.5);
+  padding:3px 10px;
+  margin:0px;
+  font-family:title;
+color: rgb(210,183,31);
+  -webkit-text-stroke: 1px rgb(170,140,1);
+}
+
+.datebox {
+bottom:20px;
+right:20px;
+font-size:50px;
+}
+
+.bannertop {
+top:200px;
+left:-2px;
+right:-2px;
+}
+
+.banner h1 {
+font-size:115px;
+}
+.banner h2 {
+font-size:70px;
+}
 
 
 .comic {
