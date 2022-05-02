@@ -57,12 +57,14 @@ font-size:70px;
 
 
 .comic {
-  width=500px;
+  width:1080px;
+  height:1350px;
   display:flex;
   flex-wrap:wrap;
   padding:1vmin;
   font-family:crimefighter;
-  font-size:8pt;
+  font-size:36pt;
+  border:solid 5px #000;
 }
 
 .panel {
@@ -82,6 +84,23 @@ font-size:70px;
   padding:3px 10px;
   margin:0px /* so it sits flush to the box*/
 } 
+
+.textpanel {
+  background-color:#F00;
+  border:solid 4px #000;
+  background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+  border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
+  height:250px;
+  margin:1vmin;/* Margin rather than padding so we are snug to the boxes */
+  overflow:hidden;/* Only makes sense with a height*/
+  padding:3px 10px;
+  position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
+  transform: rotate(1deg);
+} 
+
+
+
+}
 
 .top { 
 position:absolute;
