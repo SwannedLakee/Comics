@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'crimefighter'; /*a name to be used later*/
-    src:url("../fonts/CRIMFBRG.TTF");
+    src:url("/assets/css/fonts/CRIMFBRG.TTF");
 }
 @font-face {
     font-family: 'title'; /*a name to be used later*/
-    src:url("../fonts/Captureit.ttf");
+    src:url("/assets/css/fonts/Captureit.ttf");
 }
 
 .barcode {
@@ -55,7 +55,7 @@ font-size:115px;
 font-size:70px;
 }
 
-article {
+.comic {
   box-sizing:border-box;
   width:1080px;
   height:1350px;
@@ -63,7 +63,7 @@ article {
   flex-wrap:wrap;
   padding:1vmin;
   font-family:crimefighter;
-  font-size:24;
+  font-size:24px;
   border:solid 5px #000;
 }
 
