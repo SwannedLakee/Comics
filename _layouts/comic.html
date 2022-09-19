@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/assets/css/3.css" media="screen"/>
+  </head>
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+<div class="cover">
+    <img src="/assets/images/{{page.title}}/{{page.cover}}" style="width:100%;object-fit: cover" >
+    <div class="banner bannertop">
+      <h1>The Confessor</h1>
+      <h2>and the mundane adventures.</h2>
+    </div>
+    <p class="banner datebox">#{{page.title}}</p>
+    <img class="barcode"  src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fjoereddington.github.io%2F&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
+  </div>
+
+        {{ content }}
+      </div>
+    </main>
+
+
+  </body>
+
+</html>
