@@ -6,7 +6,7 @@ layout: post
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="/assets/css/2.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/3.css" media="screen"/>
   </head>
 <body>
 
@@ -21,101 +21,99 @@ layout: post
   </div>
 
 <article class="comic">
-  <div class="textpanel" style="width:150;">
+  <div class="textpanel" style="width:150px;">
 It's just been a lovely day
   </div>
-  <div class="panel" style="width:380">
+  <div class="panel" style="width:380px">
     <p class="text top">First: sort Kat's breakfast</p>
-    <img src="/assets/images/2022-08-27/1.jpeg" style="width:100%;object-fit: cover">
+    <img src="/assets/images/2022-08-27/1.jpeg" style="width:100px%;object-fit: cover">
   </div>
 
-  <div class="panel" style="width:300">
+  <div class="panel" style="width:300px">
     <p class="text top">Writing practice (with sibling copying)</p>
-    <img src="/assets/images/2022-08-27/2.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/2.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:500">
+  <div class="panel" style="width:300px;height:500px">
     <p class="text top">Nothing like a playground at 7am...</p>
-    <img src="/assets/images/2022-08-27/3.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/3.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:500">
-    <img src="/assets/images/2022-08-27/4.png" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:300px;height:500px">
+    <img src="/assets/images/2022-08-27/4.png" style="width:100px%;object-fit: cover" >
   </div>
 
-  <div class="panel" style="width:300;height:500">
+  <div class="panel" style="width:300px;height:500px">
     <p class="text top">Album Cover</p>
-    <img src="/assets/images/2022-08-27/7.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/7.jpeg" style="width:100px%;object-fit: cover" >
   </div>
 
 
-  <div class="panel" style="width:300;height:400">
+  <div class="panel" style="width:300px;height:400px">
     <p class="text top">Spontaneous recycling-based pass the parcel</p>
-    <img src="/assets/images/2022-08-27/5.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/5.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:400">
+  <div class="panel" style="width:300px;height:400px">
     <p class="text top">Finished article</p>
-    <img src="/assets/images/2022-08-27/6.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/6.jpeg" style="width:100px%;object-fit: cover" >
   </div>
 
-  <div class="panel" style="width:300;height:400">
+  <div class="panel" style="width:300px;height:400px">
     <p class="text top">I remembered to take a book to gymnastics!</p>
-    <img src="/assets/images/2022-08-27/8.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/8.jpeg" style="width:100px%;object-fit: cover" >
   </div>
 
 </article>
 <article class="comic">
 
-  <div class="panel" style="width:300;height:400">
+  <div class="panel" style="width:300px;height:400px">
     <p class="text top">Home for Teddy-bear picnic, with hot-chocolate and home-made-cake</p>
-    <img src="/assets/images/2022-08-27/9.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/9.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:400">
+  <div class="panel" style="width:300px;height:400px">
     <p class="text top">Also pass-the-parcel!</p>
-    <img src="/assets/images/2022-08-27/10.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/10.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:400">
-    <img src="/assets/images/2022-08-27/11.jpeg" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:300px;height:400px">
+    <img src="/assets/images/2022-08-27/11.jpeg" style="width:100px%;object-fit: cover" >
   </div>
 
-  <div class="panel" style="width:1050;height:850">
+  <div class="panel" style="width:105px0;height:850px">
     <p class="text top">Definitely time for some relaxing family bluey</p>
-    <img src="/assets/images/2022-08-27/a.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/a.jpeg" style="width:100px%;object-fit: cover" >
   </div>
 
 </article>
 <article class="comic">
 
-  <div class="panel" style="width:300;height:300">
+  <div class="panel" style="width:300px;height:300px">
     <p class="text top">Slip and slide!</p>
-    <img src="/assets/images/2022-08-27/12.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/12.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:300">
+  <div class="panel" style="width:300px;height:300px">
     <p class="text top">Action shot</p>
-    <img src="/assets/images/2022-08-27/13.png" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/13.png" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:300">
-    <img src="/assets/images/2022-08-27/14.png" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:300px;height:300px">
+    <img src="/assets/images/2022-08-27/14.png" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:476;height:380">
+  <div class="panel" style="width:476px;height:380px">
     <p class="text top">Last BBQ of the summer!</p>
-    <img src="/assets/images/2022-08-27/15.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/15.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:476;height:380">
-    <img src="/assets/images/2022-08-27/16.jpeg" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:476px;height:380px">
+    <img src="/assets/images/2022-08-27/16.jpeg" style="width:100px%;object-fit: cover" >
   </div>
-  <div class="panel" style="width:300;height:380">
-    <img src="/assets/images/2022-08-27/17.jpeg" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:300px;height:380px">
+    <img src="/assets/images/2022-08-27/17.jpeg" style="width:100px%;object-fit: cover" >
 
   </div>
-  <div class="panel" style="width:300;height:380">
-    <img src="/assets/images/2022-08-27/18.jpeg" style="width:100%;object-fit: cover" >
+  <div class="panel" style="width:300px;height:380px">
+    <img src="/assets/images/2022-08-27/18.jpeg" style="width:100px%;object-fit: cover" >
 
   </div>
-  <div class="panel" style="width:300;height:380">
+  <div class="panel" style="width:300px;height:380px">
     <p class="text top">Ending the day with s'mores</p>
-    <img src="/assets/images/2022-08-27/19.jpeg" style="width:100%;object-fit: cover" >
+    <img src="/assets/images/2022-08-27/19.jpeg" style="width:100px%;object-fit: cover" >
 
   </div>
 </article>
 
-
-</body>

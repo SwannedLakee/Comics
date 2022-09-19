@@ -49,7 +49,7 @@ layout: post
   <div class="panel halves threerows">
     <p class="text top">I debate staying in to finish the work. But I know that I wouldn't do anything constructive, I'd just be self-victimising.</p>
     <img src="/assets/images/2022-09-06/clock.jpg"  > </div>
-  <div class="panel twothirds ">
+  <div class="panel twothirdsspash ">
     <p class="text" style="top:-60px;">In the first hour, 90% of my stress leaves my body.</p>
     <img src="/assets/images/2022-09-06/7.png"  > </div>
     <p class="text bottom-right" style="position:relative;top:-40px">I need to be here more often.</p>

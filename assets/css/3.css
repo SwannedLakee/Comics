@@ -76,19 +76,34 @@ width:300px;
 }
 
 .halves {
-width:480px;
+width:455px;
 }
+
+
+.tworows {
+height:600px;
+}
+
 
 .threerows {
 height:400px;
 }
 
+.fourrows {
+height:300px;
+}
+
 .sixrows {
-height:170;
+height:170px;
 width:130px;
 }
 
 .twothirds{
+width:600px;
+}
+
+/* TODO get rid of this, two dimentsions */ 
+.twothirdsspash{
 width:1000px;
 height:800px;
 }

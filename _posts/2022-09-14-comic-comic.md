@@ -72,7 +72,7 @@ layout: post
 <img src="/assets/images/2022-09-14/g1.jpeg"> </div>
   <div class="panel thirds threerows"> <img src="/assets/images/2022-09-14/g2.jpeg"> </div>
   <div class="panel thirds threerows"> <img src="/assets/images/2022-09-14/g3.jpeg"> </div>
-  <div class="panel twothirds">
+  <div class="panel twothirdsspash">
 <p class="text top"> ...and having an awesome day</p>
  <img src="/assets/images/2022-09-14/g4.jpeg"> </div>
 

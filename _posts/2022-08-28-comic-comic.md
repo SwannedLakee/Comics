@@ -101,5 +101,3 @@ layout: post
 </article>
 
 
-</body>
-</---layout: post---<html>>
