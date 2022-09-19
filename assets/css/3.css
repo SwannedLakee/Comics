@@ -61,7 +61,7 @@ font-size:70px;
   height:1350px;
   display:flex;
   flex-wrap:wrap;
-  padding:1vmin;
+  padding:10px;
   font-family:crimefighter;
   font-size:24px;
   border:solid 5px #000;
@@ -116,7 +116,7 @@ width:100%;object-fit: cover
 .panel {
   border:solid 4px #000;
   overflow:hidden;/* Only makes sense with a height*/
-  margin:1vmin;/* Margin rather than padding so we are snug to the boxes */
+  margin:10px;/* Margin rather than padding so we are snug to the boxes */
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
   transform: rotate(1deg);
@@ -136,7 +136,7 @@ width:100%;object-fit: cover
   background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
   height:250px;
-  margin:1vmin;/* Margin rather than padding so we are snug to the boxes */
+  margin:10px;/* Margin rather than padding so we are snug to the boxes */
   overflow:hidden;/* Only makes sense with a height*/
   padding:3px 10px;
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
