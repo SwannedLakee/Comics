@@ -120,6 +120,7 @@ width:100%;object-fit: cover
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
   transform: rotate(1deg);
+  z-index:-1;
 }
 
 .text{
@@ -135,7 +136,6 @@ width:100%;object-fit: cover
   border:solid 4px #000;
   background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
-  height:250px;
   margin:10px;/* Margin rather than padding so we are snug to the boxes */
   overflow:hidden;/* Only makes sense with a height*/
   padding:3px 10px;
@@ -147,7 +147,7 @@ width:100%;object-fit: cover
 }
 
 .top { 
-position:absolute;
+position:relative;
 overflow: visible;
 top:-2px;
 left:-2px;
