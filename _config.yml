@@ -20,10 +20,10 @@
 
 title: Joe's Comics
 email: joe@joereddington.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/Comics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: joereddington
+github_username:  joereddington
 
 # Build settings
 theme: minima
