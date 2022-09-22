@@ -5,7 +5,6 @@
 layout: home
 ---
 
-# My Comics 
 
 Periodically I write autobiographical comics. During 2018 I wrote 98 comics using PowerPoint and put them on Instagram. You can read my thoughts about it (and see some of them) [at the main blog](https://joereddington.github.io/2019/08/18/comics.html) 
 
