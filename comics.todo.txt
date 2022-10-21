@@ -11,6 +11,7 @@ The purpose of the comics is to get really good at saying what I want and acting
 * Check out this watchface https://css-tricks.com/of-course-we-can-make-a-css-only-clock-that-tells-the-current-time/
   * Or this: https://codepen.io/dtinth/pen/JjmLob 
   * Or, and this is cool, take a photo of your own wrist and use it as the background? That would be awesome.  
+* Need a script to make the images smaller - they take up a lot of bandwidth
 * Overhaul of the comics 
   * Read the book on css
   * Read the book on comics 
