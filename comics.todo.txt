@@ -1,0 +1,73 @@
+# Overview 
+
+The overall priority is to make the comics as easy to make as possible.  That means fast. That means 30 minutes a day start to finish. Only after that are we interested in good narrative or flashy photographs or nice designs. 
+
+
+The purpose of the comics is to get really good at saying what I want and acting on it.  The other things (getting good at css/photography/narrative, documenting the kids lives) are incidental: while they might be motivating enough on their own, they aren't the main reason.
+
+
+
+## TODO 
+* Check out this watchface https://css-tricks.com/of-course-we-can-make-a-css-only-clock-that-tells-the-current-time/
+  * Or this: https://codepen.io/dtinth/pen/JjmLob 
+  * Or, and this is cool, take a photo of your own wrist and use it as the background? That would be awesome.  
+* Overhaul of the comics 
+  * Read the book on css
+  * Read the book on comics 
+  * Fix cover size. 
+  * Think about comics for longer-term projects. 
+(A) Refactor the last comic's css and update it. 
+(C) Read the css book 
+(C) write date and file creation script. 
+(C) Write image numbering script. 
+scripts I need: 
+* Create the page and folder. Open the page in vim. Collect all of the images in the folder with proper names. 
+  * Update the date in the page to match the file. (Or fuck it, do it as an issue number rather than a date)  
+* Put it in a box of the right size for Instagram. 
+*  you'll want this: ls -v | cat -n | while read n f; do mv -n "$f" "$n.png"; done
+
+
+* Add a command that converts to pngs to jpegs for ease 
+
+Notes on creation
+
+* Send the whatsapp messahes as one bunch so you can download the zip
+* Run the create command
+* Use the following command to put every image in downloads in the folder 
+> find ~/Downloads/ | grep jpeg | xargs -I XXX cp XXX .
+* use the following command to number the files
+ls | sort -n | cat -n | while read n f; do EXT="${f##*.}"; echo  "$f $n.$EXT"; done
+
+EDIT: you can see how that command works at https://tldp.org/LDP/abs/html/parameter-substitution.html 
+* Rearrange the files and run the command again to renumber 
+* Split the page with <article class="comic></article> so the right parts are in the right places...  
+* Adjust heights, layouts and captaions 
+* Review, spellcheck. Make sure there is an end 
+
+
+* FIX THE FACT THAT THE RENAME DOENS'T WORK IF IT'S AN EXISTING NAME
+
+
+## 19/09/22 05:23 to 07:15, Working on comic 
+## 19/09/22 19:21 to 20:46, Working on comic 
+* Installed Jekyll 
+* Rewrote all the comics to:
+    * use the same css file. 
+    * Use jeyull templates
+    * Have permalinks  
+    * Make consistent - they are now all the same page size and all have a cover. 
+
+What did I learn? 
+* px is needed for measurements when I go threw jekyll - presumably because it uses a stricter content. 
+* Can use lines like "ls *.html  |  sed 's/.html//' | xargs -I XXX  mv XXX.html XXX-comic.md " to change the names 
+* Worked out text boxes that float above the comic 
+  * Give the size to the containing div, and set overflow to hidden. 
+  * Then there is a text box, and below that, an image (which you give the panel properties to for the border), you can move the image up so that there is overlap, but the div will be the same size, and in fact, you can probably do all the cropping in css.   
+  * however then the picture is over the text, so you can set z-index to -1 to send it to the back. 
+* The floating text boxes will need more work (particularly when I introduce text boxes) 
+
+# Project stack 
+* Remove old css files
+* Merge and push 
+* Work out speech marks 
+* Update the scripts 
