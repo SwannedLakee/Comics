@@ -7,11 +7,13 @@
     src:url("fonts/Captureit.ttf");
 }
 
+
+
 .barcode {
 position:absolute;
 height:15%;
 aspect-ratio: 1 / 1;
-width:150px;
+width:initial;
 border: solid 1px;
 bottom:20px;
 left:20px;
@@ -39,22 +41,22 @@ color: rgb(210,183,31);
 }
 
 .datebox {
-bottom:20px;
-right:20px;
-font-size:50px;
+bottom:2%;
+right:2%;
+font-size:30px;
 }
 
 .bannertop {
-top:200px;
+top:18%;
 left:-2px;
 right:-2px;
 }
 
 .banner h1 {
-font-size:115px;
+font-size:80px;
 }
 .banner h2 {
-font-size:70px;
+font-size:47px;
 }
 
 .comic {
@@ -66,7 +68,7 @@ font-size:70px;
   flex-wrap:wrap;
   padding:1%;
   font-family:crimefighter;
-  font-size:24px;
+  font-size:16px;
   border:solid 5px #000;
 }
 
@@ -79,7 +81,7 @@ height: 100%;
 }
 
 .thirds {
-width:28%;
+width:26%;
 }
 
 .halves {
@@ -189,7 +191,7 @@ body {
 }
 
 .messages {
-  margin-top: 3%;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -276,4 +278,24 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+/* Media is at the bottom so they are more 'specific' see https://stackoverflow.com/a/38593143/170243 */
+@media only screen and (max-width: 790px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .banner h1{
+     font-size: 9.5vw
+  }
+  .banner h2{
+     font-size: 5.5vw
+  }
+  .datebox {
+     font-size: 5vw
+  }
+  .comic {
+     font-size: 2vw
+  }
 }
