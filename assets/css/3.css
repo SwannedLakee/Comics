@@ -15,8 +15,8 @@ height:15%;
 aspect-ratio: 1 / 1;
 width:initial;
 border: solid 1px;
-bottom:20px;
-left:20px;
+bottom:2%;
+left:2%;
 }
 
 .cover {
@@ -43,7 +43,7 @@ color: rgb(210,183,31);
 .datebox {
 bottom:2%;
 right:2%;
-font-size:30px;
+font-size:3%;
 }
 
 .bannertop {
@@ -81,7 +81,7 @@ height: 100%;
 }
 
 .thirds {
-width:26%;
+width:30%;
 }
 
 .halves {
@@ -297,5 +297,11 @@ body {
   }
   .comic {
      font-size: 2vw
+  }
+  .panel {
+    border:solid 0.5vw #000;
+  }
+  .comic {
+    border:solid 0.5vw #000;
   }
 }
