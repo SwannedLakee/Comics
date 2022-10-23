@@ -9,11 +9,12 @@
 
 .barcode {
 position:absolute;
-width:15%;
+height:15%;
 aspect-ratio: 1 / 1;
+width:150px;
 border: solid 1px;
 bottom:20px;
-left:2%;
+left:20px;
 }
 
 .cover {
@@ -30,7 +31,7 @@ left:2%;
 .banner {
 position:absolute;
   background-color:rgba(44, 123, 184, 0.5);
-  padding:3px 10px;
+  padding:3px 1%;
   margin:0px;
   font-family:title;
 color: rgb(210,183,31);
@@ -63,7 +64,7 @@ font-size:70px;
   max-height:1350px;
   display:flex;
   flex-wrap:wrap;
-  padding:10px;
+  padding:1%;
   font-family:crimefighter;
   font-size:24px;
   border:solid 5px #000;
@@ -78,7 +79,7 @@ height: 100%;
 }
 
 .thirds {
-width:26%;
+width:28%;
 }
 
 .halves {
@@ -121,7 +122,7 @@ width:100%;object-fit: cover
 .panel {
   border:solid 4px #000;
   overflow:hidden;/* Only makes sense with a height*/
-  margin:10px;/* Margin rather than padding so we are snug to the boxes */
+  margin:1%;/* Margin rather than padding so we are snug to the boxes */
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
   transform: rotate(1deg);
@@ -132,7 +133,7 @@ width:100%;object-fit: cover
   background-color:#F00;
   background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
   border:solid 2px #000;
-  padding:3px 10px;
+  padding:0.3% 1%;
   margin:0px /* so it sits flush to the box*/
 } 
 
@@ -141,9 +142,9 @@ width:100%;object-fit: cover
   border:solid 4px #000;
   background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
   border-radius:98% 2% 92% 3%/2% 98% 3% 98%; /* originally from https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */
-  margin:10px;/* Margin rather than padding so we are snug to the boxes */
+  margin:1%;/* Margin rather than padding so we are snug to the boxes */
   overflow:hidden;/* Only makes sense with a height*/
-  padding:3px 10px;
+  padding:3px 1%;
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
   transform: rotate(1deg);
 } 
@@ -184,11 +185,11 @@ body {
   font-family: helvetica;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 1%;
 }
 
 .messages {
-  margin-top: 30px;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
 }
