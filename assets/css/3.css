@@ -149,6 +149,7 @@ width:100%;object-fit: cover
   padding:3px 1%;
   position:relative; /* This makes the text inside be absolute to the relative position of this... I think */
   transform: rotate(1deg);
+  box-sizing: border-box; /*otherwise the padding isn't included in the width ffs*/
 } 
 
 
@@ -303,4 +304,7 @@ body {
   .comic {
     border:solid 0.5vw #000;
   }
+  .textpanel {
+    border:solid 0.5vw #000;
+} 
 }
