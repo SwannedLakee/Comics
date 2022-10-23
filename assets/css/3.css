@@ -9,17 +9,18 @@
 
 .barcode {
 position:absolute;
-height:150px;
-width:150px;
+width:15%;
+aspect-ratio: 1 / 1;
 border: solid 1px;
 bottom:20px;
-left:20px;
+left:2%;
 }
 
 .cover {
+  aspect-ratio: 540 / 675;
   box-sizing:border-box;
-  width:1080px;
-  height:1350px;
+  max-width:1080px;
+  max-height:1350px;
   display:flex;
   overflow:hidden;
   border:solid 5px #000;
@@ -57,8 +58,9 @@ font-size:70px;
 
 .comic {
   box-sizing:border-box;
-  width:1080px;
-  height:1350px;
+  max-width:1080px;
+  aspect-ratio: 540 / 675;
+  max-height:1350px;
   display:flex;
   flex-wrap:wrap;
   padding:10px;
@@ -68,48 +70,47 @@ font-size:70px;
 }
 
 .fullwidth {
-width:1000px;
+width:100%;
 }
 
 .fullheight {
-height: 1300px;
+height: 100%;
 }
 
 .thirds {
-width:300px;
+width:26%;
 }
 
 .halves {
-width:455px;
+width:45%;
 }
 
 
 .tworows {
-height:600px;
+height:45%;
 }
 
 
 .threerows {
-height:400px;
+height:26%;
 }
 
 .fourrows {
-height:300px;
+height:20%;
 }
 
 .sixrows {
-height:170px;
-width:130px;
+height:10%;
 }
 
 .twothirds{
-width:600px;
+width:58%;
 }
 
 /* TODO get rid of this, two dimentsions */ 
 .twothirdsspash{
-width:1000px;
-height:800px;
+width:100%;
+height:66%;
 }
 
 img {
@@ -180,7 +181,6 @@ body {
 }
 
 .chat {
-  width: 300px;
   font-family: helvetica;
   display: flex;
   flex-direction: column;
