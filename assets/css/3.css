@@ -282,9 +282,9 @@ body {
 
 /* Media is at the bottom so they are more 'specific' see https://stackoverflow.com/a/38593143/170243 */
 @media only screen and (max-width: 790px) {
-  body {
+/*  body {
     background-color: lightblue;
-  }
+  }*/
 
   .banner h1{
      font-size: 9.5vw
