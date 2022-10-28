@@ -72,6 +72,31 @@ font-size:47px;
   border:solid 5px #000;
 }
 
+.layout9 > div {
+width:28%;
+height: 30%;
+}
+
+.layout4 > div {
+width:46%;
+height:48%;
+}
+
+.comic > div> p {
+  background-color:#F00;
+  background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+  border:solid 2px #000;
+  padding:0.3% 1%;
+  margin: 0px; /* so it sits flush to the box*/
+  margin-bottom: 0px;
+  position:relative;
+  overflow: visible;
+  left:-2px;
+  right:-2px;
+}
+
+
+
 .fullwidth {
 width:100%;
 }
@@ -121,7 +146,7 @@ width:100%;object-fit: cover
 
 }
 
-.panel {
+.comic > div {
   border:solid 4px #000;
   overflow:hidden;/* Only makes sense with a height*/
   margin:1%;/* Margin rather than padding so we are snug to the boxes */
