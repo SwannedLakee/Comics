@@ -82,6 +82,10 @@ width:46%;
 height:48%;
 }
 
+.layoutstrips > div {
+width:100%;
+}
+
 .comic > div> p {
   background-color:#F00;
   background-image:linear-gradient(to right,yellow, orange); /* from w3schools https://www.w3schools.com/css/css3_gradients.asp*/

@@ -1,33 +1,28 @@
 # Overview 
 
-The overall priority is to make the comics as easy to make as possible.  That means fast. That means 30 minutes a day start to finish. Only after that are we interested in good narrative or flashy photographs or nice designs. 
 
 
 The purpose of the comics is to get really good at saying what I want and acting on it.  The other things (getting good at css/photography/narrative, documenting the kids lives) are incidental: while they might be motivating enough on their own, they aren't the main reason.
 
+The overall priority in terms of execution is to make the comics as easy to make as possible.  That means fast. That means 30 minutes a day start to finish. Only after that are we interested in good narrative or flashy photographs or nice designs. 
 
 
 ## TODO 
+(A) Set up a  'workspace' area for a new post and write the script to make it permenant.  
+* Check out this way of setting layout https://www.w3schools.com/cssref/sel_firstchild.php
+* In combination with https://stackoverflow.com/questions/26349987/how-do-i-apply-a-style-to-all-children-of-an-element it should give us 
 * Check out this watchface https://css-tricks.com/of-course-we-can-make-a-css-only-clock-that-tells-the-current-time/
   * Or this: https://codepen.io/dtinth/pen/JjmLob 
   * Or, and this is cool, take a photo of your own wrist and use it as the background? That would be awesome.  
 * Overhaul of the comics 
   * Read the book on css
   * Read the book on comics 
-  * Fix cover size. 
   * Think about comics for longer-term projects. 
-(A) Refactor the last comic's css and update it. 
 (C) Read the css book 
-(C) write date and file creation script. 
-(C) Write image numbering script. 
+(C) Command line reduction of image sizes
 scripts I need: 
-* Create the page and folder. Open the page in vim. Collect all of the images in the folder with proper names. 
-  * Update the date in the page to match the file. (Or fuck it, do it as an issue number rather than a date)  
-* Put it in a box of the right size for Instagram. 
 *  you'll want this: ls -v | cat -n | while read n f; do mv -n "$f" "$n.png"; done
 
-
-* Add a command that converts to pngs to jpegs for ease 
 
 Notes on creation
 
