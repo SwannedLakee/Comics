@@ -83,6 +83,11 @@ width:46%;
 height:48%;
 }
 
+.layout8 > div {
+width:46%;
+height:24%;
+}
+
 .layoutstrips > div {
 width:100%;
 }
