@@ -66,3 +66,9 @@ What did I learn?
 * Merge and push 
 * Work out speech marks 
 * Update the scripts 
+
+
+# Chatgpt prompt
+joe.reddington@gmail.com
+5 / 5
+Put the following into <p> tags. Then Put each of the paragraph tags in a div.  Then put '<img src="assets/images/{{page.title}}/X.png">' after each closing p tag, where X starts at 1 and increments each time.  Every four divs should be in an <article> tag
