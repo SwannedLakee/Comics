@@ -24,6 +24,13 @@ scripts I need:
 *  you'll want this: ls -v | cat -n | while read n f; do mv -n "$f" "$n.png"; done
 
 
+
+# How to... 
+
+Okay, so the system is setup so that we start with images and then there is a very simple system for converting them into pages. 
+
+But the ordering gets tricky.   
+
 Notes on creation
 
 * Send the whatsapp messahes as one bunch so you can download the zip
