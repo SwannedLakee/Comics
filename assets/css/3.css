@@ -83,6 +83,10 @@ width:46%;
 height:48%;
 }
 
+.layout4 > div.fullwidth {
+width:100%;
+}
+
 .layout6 > div {
 width:46%;
 height:30%;
@@ -204,17 +208,24 @@ left:-2px;
 right:-2px;
 }
 
-.top-left {
+.comic > div > p.top-left {
+  display:block;
+  width:max-content;
   left:-6px;
   position:absolute;
   top:-2px;
   transform:skew(-15deg);
+  z-index:2;
 }
-.bottom-right {
-  right:-2px;
+.comic > div > p.bottom-right {
+  display:block;
+  width:max-content;
+  right:2px;
   position:absolute;
-  bottom:23px;
+  bottom:2px;
   transform:skew(-15deg);
+  white-space:nowrap;
+  z-index:2;
 }
 
 /* Messages from https://stackoverflow.com/a/45944762/170243 */ 
