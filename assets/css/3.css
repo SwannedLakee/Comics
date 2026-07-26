@@ -87,6 +87,10 @@ height:48%;
 width:100%;
 }
 
+.layout4 > div.fullwidth.teaserpanel {
+height:40%;
+}
+
 .layout6 > div {
 width:46%;
 height:30%;
@@ -226,6 +230,11 @@ right:-2px;
   transform:skew(-15deg);
   white-space:nowrap;
   z-index:2;
+}
+
+.comic > div.teaserpanel > p.bottom-right {
+  right:-2px;
+  bottom:8px;
 }
 
 /* Messages from https://stackoverflow.com/a/45944762/170243 */ 

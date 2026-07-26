@@ -204,11 +204,25 @@ html, body {{
   background: white;
 }}
 body {{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }}
 .cover,
 .comic {{
-  margin: 0;
+  margin: 0 auto;
+}}
+.cover {{
+  width: 1080px;
+  height: 1350px;
+  max-width: none;
+  max-height: none;
+}}
+.comic {{
+  width: 730px;
+  height: 913px;
+  max-width: none;
+  max-height: none;
 }}
 .comic > div,
 .textpanel {{
@@ -225,9 +239,9 @@ body {{
 
 def window_size_for_page(page_kind):
     if page_kind == "cover":
-        return "1100,1360"
+        return "1120,1440"
 
-    return "740,923"
+    return "760,1120"
 
 
 def export_page_image(
