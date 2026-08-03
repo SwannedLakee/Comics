@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import re
 import shutil
 import subprocess
 import sys
@@ -173,8 +174,15 @@ def read_rendered_pages(built_page_path):
     return rendered_page_extractor.captured_pages
 
 
-def read_comic_css(repo_root):
-    css_path = repo_root / "assets" / "css" / "3.css"
+def read_comic_css(repo_root, built_page_path):
+    built_page_text = built_page_path.read_text()
+    stylesheet_matches = re.findall(
+        r'href="[^"]*assets/css/([^"/]+\.css)"',
+        built_page_text,
+    )
+
+    stylesheet_name = stylesheet_matches[-1] if stylesheet_matches else "3.css"
+    css_path = repo_root / "assets" / "css" / stylesheet_name
     return css_path.read_text()
 
 
@@ -308,7 +316,7 @@ def main():
     repo_root = find_repo_root()
     built_page_path = resolve_built_page(arguments.page, repo_root)
     rendered_pages = read_rendered_pages(built_page_path)
-    comic_css = read_comic_css(repo_root)
+    comic_css = read_comic_css(repo_root, built_page_path)
     chrome_binary = find_chrome_binary()
     magick_binary = find_magick_binary() if arguments.format == "jpeg" else None
 
